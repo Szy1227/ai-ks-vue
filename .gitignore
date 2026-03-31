@@ -1,0 +1,17 @@
+.terraform/
+.terraform.lock.hcl
+plugins/
+
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+code/node_modules/
+code/dist/
+code/.vite/
+run.log
+code/run.log
